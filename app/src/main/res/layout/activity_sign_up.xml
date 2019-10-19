@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_background"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/facebookBlue"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginPageUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USER NAME"
+            android:gravity="left|center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@android:color/white"
+            />
+
+        <EditText
+            android:id="@+id/loginPagePassword"
+            android:layout_below="@+id/loginPageUserName"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:gravity="center|left"
+            android:hint="ENTER PASSWORD"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="LOGIN"
+            android:background="@drawable/white_border_button_background"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@android:color/white"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
